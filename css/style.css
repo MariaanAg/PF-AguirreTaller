@@ -26,6 +26,8 @@ header nav {
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+
     
 
     
@@ -106,24 +108,23 @@ h1 {
    
    .text-contac {
     width:  360px; 
-    border: 1px solid #000000
-   }
-   .textcont {
-    width: 360px;
-    border: 1px solid #000000
-    
-   }
-   .textcont img {
-    width: 360px;
-   }
+    border: 1px solid #3d3c3c
 
-   .card__cont{
+
+   }
+   
+
+   
+   .text_contac {
+    text-align: center;
+   }
+   
+   .maps{
     display: flex;
-    justify-content: baseline;
-    justify-self: center;
-    align-content: space-between;
-
+    justify-content: center;
    }
+   
+  
 
 
     
