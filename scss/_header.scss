@@ -1,0 +1,39 @@
+header nav {
+    background-color: #f5f5dc;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    ;
+    height: 350px;
+    width: 100%;
+}
+.first-text {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+    
+
+    
+    
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+nav ul li a {
+    text-decoration: none;
+    color: #3d3d37;
+}
+
+
+
+
+.logoo img {
+    width: 150px;
+
+}
