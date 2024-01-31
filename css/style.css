@@ -157,7 +157,12 @@ h1 {
 
 /*Exclusivos*/
 
-.imgxcl{
+.imgexcl{
 display: flex;
 justify-content: space-around;
+}
+
+.nosotros{
+    display: flex;
+    align-items: center;
 }
