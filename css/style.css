@@ -165,10 +165,16 @@ h1 {
 
 .imgexcl{
 display: flex;
+flex-wrap: wrap;
 justify-content: space-around;
 }
 
 .nosotros{
     display: flex;
     align-items: center;
+}
+
+.img-fluid{
+    display: flex;
+    flex-direction: row;
 }
