@@ -98,6 +98,11 @@ h1 {
         justify-content: space-around;
         
     }
+
+    .vid{
+        display: flex;
+        justify-content: space-around;
+    }
     
    
    
@@ -121,7 +126,8 @@ h1 {
    
    .maps{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    justify-items: center;
    }
    
   
