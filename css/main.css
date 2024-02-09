@@ -1,8 +1,8 @@
 * {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 20px;
-  padding: 0;
-  margin: 0;
+  padding: 0px;
+  margin: 0px;
 }
 
 header nav {
@@ -31,10 +31,7 @@ nav ul li a {
   color: #3d3d37;
 }
 
-.logoo img {
-  width: 150px;
-}
-
+/*main*/
 .title {
   font-weight: 400;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
@@ -63,6 +60,21 @@ article {
   justify-content: space-around;
 }
 
+.vid {
+  display: flex;
+  justify-content: space-around;
+}
+
+.vid-text {
+  text-align: center;
+}
+
+.main-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
 .footerimg img {
   width: 50px;
 }
@@ -83,6 +95,57 @@ article {
 
 .imgexcl img {
   width: 400px;
+}
+
+/*Exclusivos*/
+.imgexcl {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+
+.imgexcl img {
+  padding: 5px;
+}
+
+.nosotros {
+  display: flex;
+  align-items: center;
+}
+
+.img-fluid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.img-fluid img {
+  width: 450px;
+  padding: 5px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 0.5fr);
+  grid-template-rows: repeat(4, 0.5fr);
+  grid-template-areas: "header header header header" "main main main main " "section section section section " "footer footer footer footer ";
+}
+
+header {
+  grid-area: header;
+}
+
+main {
+  grid-area: main;
+}
+
+section {
+  grid-area: section;
+}
+
+footer {
+  grid-area: footer;
 }
 
 /*# sourceMappingURL=main.css.map */

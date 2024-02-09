@@ -1,3 +1,54 @@
+header nav {
+    background-color: #f5f5dc;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    ;
+    height: 350px;
+    width: 100%;
+}
+.first-text {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+    
+
+    
+    
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+nav ul li a {
+    text-decoration: none;
+    color: #3d3d37;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+/*main*/
 .title  {
     font-weight: 400;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -29,3 +80,20 @@ h1 {
         justify-content: space-around;
         
     }
+
+    .vid{
+        display: flex;
+        justify-content: space-around;
+    }
+    .vid-text {
+        text-align: center
+        ;
+    }
+
+    .main-flex{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+   

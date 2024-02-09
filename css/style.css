@@ -48,10 +48,7 @@ nav ul li a {
 
 
 
-.logoo img {
-    width: 150px;
 
-}
 
 
 
@@ -195,3 +192,24 @@ padding: 30px;
     width: 450px;
     padding: 5px;
 }
+
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: 
+    "header header header"
+    "main main main "
+    "section section section"
+    "footer footer footer "
+    
+    ;
+  }  
+    header {
+    grid-area: header;
+}
+
+    
+    
+    

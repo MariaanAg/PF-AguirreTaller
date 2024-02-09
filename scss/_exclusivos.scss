@@ -1,4 +1,30 @@
+/*Exclusivos*/
+
 .imgexcl{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 30px;
+    }
+    
+    .imgexcl img {
+        padding: 5px;
+    }
+    
+    .nosotros{
+        display: flex;
+        align-items: center;
+    }
+    
+    .img-fluid{
+        
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    
+    
+    }
+    .img-fluid img {
+        width: 450px;
+        padding: 5px;
     }
