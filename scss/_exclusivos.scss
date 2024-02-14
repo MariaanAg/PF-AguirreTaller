@@ -5,11 +5,15 @@
     justify-content: space-around;
     flex-wrap: wrap;
     padding: 30px;
+    img {
+         padding: 5px;
     }
     
-    .imgexcl img {
-        padding: 5px;
-    }
+ }
+    
+    
+    
+
     
     .nosotros{
         display: flex;
@@ -21,10 +25,13 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
+
+        img{
+             width: 450px;
+             padding: 5px;
+        }
     
     
     }
-    .img-fluid img {
-        width: 450px;
-        padding: 5px;
-    }
+    
+   

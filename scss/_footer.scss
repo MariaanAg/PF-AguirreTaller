@@ -1,10 +1,14 @@
+footer{
+    width: 100%;
+}
+
 .footerimg img {
     width: 50px;
 }
 
 .final {
  text-align: center;
- color: #000000;
+ color: $text-p;
  font-size: 50px;
 }
 
@@ -12,7 +16,7 @@
     list-style: none;
 }
 .backfoo {
-    background-color: #f5f5dc
+    background-color: $bck-foo
 }
 
 

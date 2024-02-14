@@ -1,5 +1,7 @@
-@import 'reset' ;
+@import 'reset/vars';
+@import 'reset/reset';
+
 @import 'principal';
 @import 'footer';
 @import 'exclusivos'; 
-@import 'grid';
+@import 'reset/grid';

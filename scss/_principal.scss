@@ -1,15 +1,15 @@
 header nav {
-    background-color: #f5f5dc;
+    background-color: $bck-foo;
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: center;
-    ;
+    background-position: center;  
     height: 350px;
     width: 100%;
+    
 }
 .first-text {
     text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: $font-p;
 }
 
 
@@ -23,6 +23,8 @@ nav ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+
     
 }
 nav ul li a {
@@ -51,26 +53,26 @@ nav ul li a {
 /*main*/
 .title  {
     font-weight: 400;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:  $font-p;
     text-align: center;
-    
-    
-
-    
+   
 } 
 h1 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: $font-p;
     text-align: center;
+    color: $bck-nav;
 }
 
 
 
    p {
     font-size: large;
-    color: #160e0e;
-    font-weight: 700;
-    font-family: 'Roboto Condensed', sans-serif;
-   }
+    color: $text-p
+    font-weight  700;
+    font-family:  'Roboto Condensed', sans-serif;
+    font-weight: 700px;
+}
+
    .listaservicio ul {
     list-style-type: square;
    }
@@ -84,6 +86,7 @@ h1 {
     .vid{
         display: flex;
         justify-content: space-around;
+       
     }
     .vid-text {
         text-align: center
@@ -96,5 +99,17 @@ h1 {
        justify-content: space-between;
         
     }
+
+    .maps{
+        display: flex;
+        justify-content: space-around;
+        justify-items: center;
+       }
+
+       .text_contac {
+        text-align: center;
+       }
+
     
-   
+    
+    
