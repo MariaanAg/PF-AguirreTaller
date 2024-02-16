@@ -77,16 +77,12 @@ h1 {
     list-style-type: square;
    }
     article {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
+        @include flex;
         
     }
 
     .vid{
-        display: flex;
-        justify-content: space-around;
-       
+        @include flex;
     }
     .vid-text {
         text-align: center
@@ -94,16 +90,12 @@ h1 {
     }
 
     .main-flex {
-        display: flex;
-        flex-wrap: wrap;
-       justify-content: space-between;
+        @include flexx;
         
     }
 
     .maps{
-        display: flex;
-        justify-content: space-around;
-        justify-items: center;
+        @include flex;
        }
 
        .text_contac {

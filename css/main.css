@@ -60,11 +60,14 @@ article {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  justify-items: center;
 }
 
 .vid {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
+  justify-items: center;
 }
 
 .vid-text {
@@ -79,6 +82,7 @@ article {
 
 .maps {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   justify-items: center;
 }
@@ -116,8 +120,9 @@ footer {
 /*Exclusivos*/
 .imgexcl {
   display: flex;
-  justify-content: space-around;
   flex-wrap: wrap;
+  justify-content: space-around;
+  justify-items: center;
   padding: 30px;
 }
 .imgexcl img {
@@ -133,6 +138,7 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  justify-items: center;
 }
 .img-fluid img {
   width: 450px;

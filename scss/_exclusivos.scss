@@ -1,9 +1,7 @@
 /*Exclusivos*/
 
 .imgexcl{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+   @include flex;
     padding: 30px;
     img {
          padding: 5px;
@@ -22,9 +20,7 @@
     
     .img-fluid{
         
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
+        @include flex;
 
         img{
              width: 450px;
